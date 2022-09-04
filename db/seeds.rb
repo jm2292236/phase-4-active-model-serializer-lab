@@ -1,3 +1,5 @@
+puts '🌱 Seeding started...'
+
 author1 = Author.create(
   name: "Wilbert Green"
 )
@@ -74,3 +76,5 @@ post4 = author3.posts.create(
 post4.tags.create(
   name: "facere"
 )
+
+puts '🌱 Seeding finished!'
